@@ -73,7 +73,7 @@ def main():
             df['current'] = pd.to_numeric(df['current'], errors='coerce')
 
             # Adjust voltage
-            df['vtg'] = df['vtg'] / 2
+            df['vtg'] = df['vtg']
 
             # Graphs
             st.subheader("Temperature Over Time 🌡️")
