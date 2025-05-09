@@ -60,7 +60,7 @@ def main():
         st.success("You are logged in!")
 
         # Tabs
-        tab1, tab2 = st.tabs(["📊 BMS1 Dashboard", "🛠️ Tab 2 Placeholder"])
+        tab1, tab2 = st.tabs(["📊 BMS1 Dashboard", "🛠️ Tab 2"])
 
         with tab1:
             st.subheader("Fetched Data Table 📄")
